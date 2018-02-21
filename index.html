@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+  <head>
+    <title>Project 1</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" media="screen" href="css/screen.css" />
+  </head>
+  <body>
+    <main id="content">
+      <form method="get" action="#null">
+        <h1>Register for the new Snapchat beta!</h1>
+        <p>We promise it is nothing like the last one</p>
+        <ol>
+          <li id="regname">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"/>
+          </li>
+          <li id="regemail">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" pattern="^.+@.+$"/>
+          </li>
+          <li id="regsnap">
+            <label for="snap">Username:</label>
+            <input type="text" name="snap" id="snap"/>
+          </li>
+          <li id="reg">
+            <input type="button" name="submit" id="submit" value="Register" />
+          </li>
+        </ol>
+      </form>
+    </main>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/site.js"></script>
+  </body>
+</html>
