@@ -199,7 +199,7 @@ img, audio, video {
 
   body{
     background-color: #e9ff00;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', 'Open Sans', 'Lato', sans-serif;
     color: #000000;
     padding-left: 40px;
     padding-right: 40px;
