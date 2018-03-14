@@ -4,8 +4,8 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
-function validation(){
-  var x = document.form["name"]["email"]["snap"].value;
+function validateForm(){
+  var x = document.forms["name"]["email"]["snap"].value;
   if (x==""){
     alert("Please fill in the blank spaces!");
     return false;
